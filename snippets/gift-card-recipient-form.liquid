@@ -9,6 +9,7 @@
   {% render 'gift-card-recipient-form', product: product, form: form, section: section %}
 {% endcomment %}
 
+
 <div class="customer">
   {%- assign gift_card_recipient_control_flag = 'properties[__shopify_send_gift_card_to_recipient]' -%}
   <script src="{{ 'recipient-form.js' | asset_url }}" defer="defer"></script>
